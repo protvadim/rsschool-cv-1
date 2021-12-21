@@ -1,53 +1,69 @@
-Siarhei Drobysh
+# Siarhei Drobysh
 
-Objective: Junior Front-End Developer
+## Objective: _Junior Front-End Developer_
 
-Contacts:
+---
 
-Phone:+375(29)6522679
+# Contacts:
 
-Telegram:@drobyshsv
+**Phone:** _+375(29)6522679_
 
-E-mail:drobyshsv@gmail.com
+**Telegram:** _@drobyshsv_
 
-Diskord:Siarhei Drobysh#5747
+**E-mail:** _drobyshsv@gmail.com_
 
-About me:
+**Diskord:** _Siarhei Drobysh#5747_
 
-I like to work in a team
+---
 
-Skills:
+# About me:
 
-HTML(Basic)
+_I like to work in a team_
 
-CSS(Basic)
+---
 
-JS(Basic)
+# Skills:
 
-Code example:
+\*_HTML(Basic)_
 
+\*_CSS(Basic)_
+
+\*_JS(Basic)_
+
+---
+
+# Code example:
+
+```
 function sum(a, b) {
 return a + b;
 }
 result = sum(10, 2);
 console.log(result);
+```
 
-Experions:
+---
 
-Nothing
+# Experions:
 
-Education:
+_Nothing_
 
-BNTY, Civil Engineering - 2007-2012
+---
 
-Courses:
+# Education:
 
-1. CSS video course
-2. Computer Science Basics - https://learn.epam.com/
-3. HTML, CSS, JS для начинающих https://ru.code-basics.com/#courses
+- _BNTY, Civil Engineering - 2007-2012_
 
-English:
+- _Courses:_
 
-English level - Pre-intermediate (A2)
+1.  CSS video course
+2.  Computer Science Basics - https://learn.epam.com/
+3.  HTML, CSS, JS для начинающих https://ru.code-basics.com/#courses
+
+---
+
+# English:
+
+_English level - Pre-intermediate (A2)_
 
 ---

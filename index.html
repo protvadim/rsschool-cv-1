@@ -4,8 +4,175 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>CV#3. Cross-check</title>
   </head>
-  <body class="body"></body>
+  <body class="body">
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code-example" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="main-header">
+          <div class="left-header">
+            <h1>Siarhei Drobysh</h1>
+            <p><strong>Objective:</strong>Junior Front-End Developer</p>
+
+            <div class="contacts" id="contacts">
+              <ul class="contact-list">
+                <li>
+                  <img
+                    class="icon"
+                    src="/assets/svg/phone-call-icon.png"
+                    alt="phone-call-icon"
+                  />
+                  <a>+375 (29) 652-26-79</a>
+                </li>
+                <li>
+                  <img
+                    class="icon"
+                    src="/assets/svg/email-icon.png"
+                    alt="email-icon"
+                  />
+                  <a>drobyshsv@gmail.com</a>
+                </li>
+              </ul>
+              <ul class="contact-list">
+                <li>
+                  <img
+                    class="icon"
+                    src="/assets/svg/github-icon.png"
+                    alt="github-icon"
+                  />
+                  <a>github.com/DrobyshSV</a>
+                </li>
+                <li>
+                  <img
+                    class="icon"
+                    src="/assets/svg/discord-icon.png"
+                    alt="discord-icon"
+                  />
+                  <a>Siarhei Drobysh#5747</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <figure class="right-header">
+            <figcaption>
+              <img
+                class="photo"
+                src="/assets/img/CV-photo.jpg"
+                alt="CV-photo"
+                title="Дробыш Сергей"
+              />
+            </figcaption>
+          </figure>
+        </div>
+      </header>
+      <main>
+        <section class="about-me" id="about-me">
+          <h2>About me:</h2>
+          <p>
+            Interested in becoming part of a friendly team that wants to grow
+            and create great applications.
+          </p>
+        </section>
+        <div class="column">
+          <div class="left-column">
+            <section class="skills" id="skills">
+              <h2>Skills:</h2>
+              <ul>
+                <li>HTML(Basic)</li>
+                <li>CSS(Basic)</li>
+                <li>JS(Basic)</li>
+              </ul>
+            </section>
+            <section class="code-example" id="code-example">
+              <h2>Code example:</h2>
+              <pre class="code">
+                <code >
+                function sum(a, b) {
+                return a + b;
+                }
+                result = sum(10, 2);
+                console.log(result);
+                </code>
+              </pre>
+            </section>
+          </div>
+          <div class="right-column">
+            <section class="education" id="education">
+              <h2>Education:</h2>
+              <p>BNTY, Civil Engineering, 2007-2012</p>
+            </section>
+            <section class="courses">
+              <h3>Courses:</h3>
+              <ul>
+                <li>CSS50 video course</li>
+                <li>Computer Science Basics - https://learn.epam.com/</li>
+                <li>
+                  HTML, CSS, JS для начинающих
+                  https://ru.code-basics.com/#courses
+                </li>
+              </ul>
+            </section>
+            <section class="english" id="english">
+              <h2>English:</h2>
+              <p>English level - Pre-intermediate (A2)</p>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div>
+          <img
+            class="icon"
+            src="/assets/svg/github-icon.png"
+            alt="github-icon"
+          /><a
+            href="https://github.com/DrobyshSV"
+            target="_blank"
+            rel="noopener noreferrer"
+            >My GitHub</a
+          >
+        </div>
+        <div>
+          <a href="https://rs.school/js/" target="_blank"
+            ><img
+              src="/assets/svg/rs-school-js-icon.svg"
+              alt="rs-school-js-icon"
+              height="30"
+          /></a>
+        </div>
+        <div>
+          <a>2021</a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,3 +1,152 @@
-body {
-  background-color: azure;
+* {
+  font-family: "Cabine";
+}
+.body {
+  background-color: rgba(233, 236, 236, 0.836);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1024px;
+  min-width: 860px;
+  margin: auto;
+  background-color: rgb(231, 227, 221);
+  border-radius: 30px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(109, 109, 109, 0.747);
+  margin: 0px auto;
+  border-radius: 30px 30px 0 0;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+.nav-link {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+.main-header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.left-header {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-header {
+  margin: auto;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+}
+.contacts {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 1.1em;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-list {
+  padding: 0;
+  list-style-type: none;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.photo {
+  margin: 0 auto;
+  border-radius: 30px;
+  width: 200px;
+  transition: transform 4s;
+}
+.photo:hover {
+  transform: rotate(360deg);
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+.about-me {
+  border-left: 10px solid cornflowerblue;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin: 0;
+}
+h2 {
+  margin: auto;
+  font-size: 2em;
+}
+p,
+h3,
+li {
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+.code {
+  font-size: 1.5em;
+  background-color: rgb(189, 185, 178);
+}
+.column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.left-column {
+  width: 40%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.right-column {
+  width: 40%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.skills,
+.education,
+.english,
+.courses,
+.code-example {
+  padding-top: 20px;
+}
+.footer {
+  background-color: rgba(75, 118, 138, 0.692);
+  height: 60px;
+  width: 100%;
+  margin: 0px auto;
+  border-radius: 0 0 30px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5em;
 }
